@@ -23,7 +23,6 @@ function getUserinfo() {
             }
             renderAvatar(res.data)
         },
-        // 不论成功还是失败，最终都会调用 complete 回调函数
     })
 }
 
